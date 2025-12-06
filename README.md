@@ -55,6 +55,8 @@ int main() {
 ## Build
 
     gcc lexer_core.c lexer_helpers.c lexer_constants.c lexer_operators.c error.c main.c -o lexer
+    or
+    gcc *.c -o lexer
 
 ## Run
 ```bash
